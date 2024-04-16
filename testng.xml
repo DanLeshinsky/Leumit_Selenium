@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/englap/Documents/Automation/Other pr/Fresh_Template/Fresh_template">
+        <classes>
+            <class name="businessScenario.W3Scools">
+                <methods>
+                    <include name="TestW3chool_with_for_loop"/>
+                    <include name="TestW3chool_with_xpath"/>
+                </methods>
+            </class>
+            <class name="businessScenario.Guru99">
+                <methods>
+                    <include name="Guru99_with_one_string"/>
+                    <include name="Guru99_with_category_and_subcategory"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

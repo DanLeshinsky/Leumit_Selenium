@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<environment>
+   <!-- init  - Browser -->
+  <BrowserType>chrome</BrowserType>
+  <BaseURL>http://www.w3schools.com/html/html_tables.asp</BaseURL>
+  <BaseURLGuru99>https://demo.guru99.com/</BaseURLGuru99>
+
+  
+  <!-- Report - Logger -->
+  <TimeStampTemplate>yyyy-MM-dd_HH-mm-ss</TimeStampTemplate>
+  <LogFileName>ExecutionLog.txt</LogFileName>
+  <ReportFilePath>.\\Reports\\</ReportFilePath>
+  <!--<ReportFilePath>C:\Mobile_AutomationProject\mobileautomation - Belong/</ReportFilePath>-->
+  <ReportFileName>extentSparkReport.html</ReportFileName>
+
+</environment>
+
+
